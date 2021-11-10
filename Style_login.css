@@ -1,0 +1,581 @@
+/* Header Started */
+*{
+    font-family: sans-serif;
+}
+.country{
+    width: 400px;
+    padding-left: 25px;
+    height: 100%;
+    height: 48px;
+    background: #fff;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border: 2px solid #002f34;
+    border-radius: 4px;
+    width: 280px;
+    padding-left: 40px;
+    font-size: 15px;
+    min-width: 300px;
+}
+.country::placeholder{
+
+}
+.input_div{
+    position: relative;
+    display: flex;
+    width: 1000px;
+}
+}
+.fas fa-search{
+    background-color: blue;
+    color: wheat;
+}
+.search_bar{
+    width: 60%;
+    display: flex;
+    height: 48px;
+    background: #fff;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border: 2px solid #002f34;
+    border-radius: 3px 0 0 3px;
+    margin-left: 20px;
+}
+.search_bar::placeholder{
+    font-size: 15px;
+}
+.search_logo{
+    width:;
+    position: absolute; 
+    left: 10px;
+    top: 17px;
+    color: #002f34;
+}
+.search_logo_1{
+    background-color:  #002f34; 
+    padding-top:    13px; 
+    color: white; 
+    border-radius: 0 3px 3px 0; 
+    height: 48px; 
+    width: 48px;
+    min-width: 48px;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+
+.header{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.a{
+    font-size: 20px;
+    color: black;
+   
+}
+.login_span{
+    padding-top: 8px;
+}
+
+.a:hover{
+    text-decoration: none;
+}
+.login_div{
+    padding-top: 10px;
+}
+.b{
+    border: solid 5px;
+    color: black;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-top-color: yellow;
+    border-bottom-color:  violet;
+    border-left-color:  skyblue;
+    border-right-color: seagreen;
+}
+/* Header Closed */
+/* Nav Bar Started */
+.nav_div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.Cotegories{
+
+}
+.nav{
+    display: inline;
+    margin: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #002f34;
+}
+.nav:hover{
+    color: #23e5db;
+}
+.nav_list{
+    padding-left: 0;
+}
+
+.login_divlink{
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.login_slider{
+    width: 200px;
+    margin: 0 auto;
+}
+body{
+    background-color: #002f34;
+}
+.login_h1{
+    text-align: center;
+    color: white;
+    background-color: #002f34;
+    border: 8px solid #002f34;
+    margin-top: 7px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+.login_h1:hover{
+    color: #002f34;
+    background-color: white;
+}
+.login_discription{
+    font-size: 10px;
+    text-align: center;
+}
+.login_discription1{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(165, 161, 161);
+    margin-top: 30px;
+}
+.login_discription1>span{
+    color: rgb(20, 142, 241);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_list{
+    display: flex;
+    background-color: #ebeeef;
+    justify-content: space-around;
+    border-top: 0.1px solid gray;
+    flex-wrap: wrap;
+}
+.list1{
+    list-style-type: none;
+    text-align: left;
+    margin-top: 30px;
+}
+.main_h{
+     color: #002f34;
+     font-weight: bold;
+     font-size: 15px;
+     margin-bottom: 10px;
+}
+li{
+    font-size: 13px;
+    color: #58767a;
+    font-weight: lighter;
+    cursor: pointer;
+}
+li:hover{
+    color: black;
+}
+.last_div{
+    /* width: 100%; */
+    height: auto;
+    background-color: #002f34;
+    padding: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+body{
+    margin: 0;
+}
+.sp_1{
+    color: white;
+    text-align: left;
+
+}
+.sp_2{
+    color: white;
+}
+.linkks{
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    border:0.5px solid gray;
+    color: gray;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 1px;
+    cursor: pointer;
+}
+.last_img{
+    width: 80px;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px){
+    ..last_div{
+        height: auto;
+    }
+    .b{
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    ..last_div{
+        height: auto;
+    }
+    .b{
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width: 700px){
+    ..last_div{
+        height: auto;
+    }
+    .country{
+        width: 200px;
+    }
+    .b{
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .search_bar{
+        padding: 0;
+    }
+    .country{
+        width: 200px;
+    }
+    .cover{
+      display: none;
+      
+    }
+    .addd{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    ..last_div{
+        height: auto;
+    }
+    .b{
+        margin-left: 0;
+        margin-right: 20px;
+    }
+        .search_bar{
+        padding: 0;
+        margin-left: 0px;
+     } 
+    .input_div{
+        visibility: hidden;
+        width: 30%;
+      }
+      .nav{
+          display: block;
+      }
+      .cover{
+        display: none;
+        
+      }
+      .addd{
+        display: none;
+        visibility: hidden;
+    }
+
+}
+@media only screen and (max-width: 400px){
+    ..last_div{
+        height: auto;
+    }
+    .app_promo{
+        display: none;
+    }
+    .search_bar{
+        padding: 0;
+        margin-left: 0px;
+     } 
+    .input_div{
+        visibility: hidden;
+        width: 40%;
+      }
+      .nav{
+          display: block;
+      }
+      .cover{
+        display: none;
+        
+      }
+      .addd{
+        display: none;
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 400px){
+    .b{
+        margin-right: 20px;
+    }
+    .input_div{
+       /* display: none; */
+       width: 1%;
+      }
+      .nav{
+          display: block;
+      }
+      .cover{
+        display: none;
+        visibility: hidden;
+        
+      }
+      .addd{
+        display: none;
+        visibility: hidden;
+    }
+}

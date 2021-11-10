@@ -1,0 +1,136 @@
+.header{
+    display: block;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 10px;
+    padding-bottom: 0;
+
+}
+
+
+.ad_div{
+    height: auto;
+    /* background-color: aqua; */
+    border: 0.8px solid #ccd5d6;
+    display: table;
+    margin-bottom: 30px;
+    margin: 50px auto;
+    margin-top: 0px;
+    padding: 50px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+    position: static !important;
+}
+.sub_ad_div{
+    height: auto;
+    /* background-color: blue; */
+    border: 0.8px solid #ccd5d6;
+    border-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.ad_maindiv{
+    /* margin: 500px auto; */
+    display: inline;
+    margin-top: 800px;
+}
+.admain_h1{
+    color: #002f34;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.ad_mainrow{
+      display: inline;
+}
+.ad_divh6{
+    font-weight: bold;
+    color: #002f34;
+    margin-left: 20px;
+}
+.category{
+    border-bottom: 0.8px solid #ccd5d6;
+    padding: 10px;
+    padding-left: 50px;
+    position: relative;
+    color: #5c7a7d;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 0;
+}
+.category>.farward{
+  position: absolute;
+  right: 10px;
+  top: 13px;
+}
+.category>.cata_logo{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+.category:hover{
+    color: #002f34;
+    background-color: #cad2d3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.last_div{
+    /* width: 100%; */
+    height: auto;
+    background-color: #002f34;
+    padding: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+body{
+    margin: 0;
+}
+.sp_1{
+    color: white;
+    text-align: left;
+
+}
+.sp_2{
+    color: white;
+}
+.linkks{
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    border:0.5px solid gray;
+    color: gray;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 1px;
+    cursor: pointer;
+}
+.last_img{
+    width: 80px;
+    margin-top: 10px;
+
+}

@@ -1,0 +1,638 @@
+/* Header Started */
+*{
+    font-family: sans-serif;
+}
+.country{
+    width: 400px;
+    padding-left: 25px;
+    height: 100%;
+    height: 48px;
+    background: #fff;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border: 2px solid #002f34;
+    border-radius: 4px;
+    width: 280px;
+    padding-left: 40px;
+    font-size: 15px;
+    min-width: 300px;
+}
+.country::placeholder{
+
+}
+.input_div{
+    position: relative;
+    display: flex;
+    width: 1000px;
+}
+}
+.fas fa-search{
+    background-color: blue;
+    color: wheat;
+}
+.search_bar{
+    width: 60%;
+    display: flex;
+    height: 48px;
+    background: #fff;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border: 2px solid #002f34;
+    border-radius: 3px 0 0 3px;
+    margin-left: 20px;
+}
+.search_bar::placeholder{
+    font-size: 15px;
+}
+.search_logo{
+    width:;
+    position: absolute; 
+    left: 10px;
+    top: 17px;
+    color: #002f34;
+}
+.search_logo_1{
+    background-color:  #002f34; 
+    padding-top:    13px; 
+    color: white; 
+    border-radius: 0 3px 3px 0; 
+    height: 48px; 
+    width: 48px;
+    min-width: 48px;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+
+.header{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.a{
+    font-size: 20px;
+    color: black;
+   
+}
+.login_span{
+    padding-top: 13px;
+}
+
+.a:hover{
+    text-decoration: none;
+}
+.login_div{
+    padding-top: 17px;
+}
+.b{
+    border: solid 5px;
+    color: black;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-top-color: yellow;
+    border-bottom-color:  violet;
+    border-left-color:  skyblue;
+    border-right-color: seagreen;
+}
+/* Header Closed */
+/* Nav Bar Started */
+.nav_div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.Cotegories{
+
+}
+.nav{
+    display: inline;
+    margin: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #002f34;
+}
+.nav:hover{
+    color: #23e5db;
+}
+.nav_list{
+    padding-left: 0;
+}
+/* Nav Bar Closed */
+/* Senond Nav */
+.nav_2>p{
+    font-size: 13px;
+    color: gray;
+    display: inline-flex;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.mainn{
+    display: flex;
+    justify-content: space-between;
+}
+.a-2{
+  margin: 0;
+  padding: 0;
+}
+.description>h1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.description>p{
+    font-size: 13px;
+}
+.description{
+    border: 1px solid gray;
+    margin-top: 5px;
+    box-shadow: 1px 0.8 gray;
+    padding: 10px;
+    border-radius: 5px;
+    padding-bottom: 0px;
+    color: #003547;
+}
+.description:active{
+    border: 2px solid gray;
+}
+.price_info{
+    border: 1px solid rgb(163, 159, 159);
+    padding: 10px;
+    padding-right: 50px;
+    border-radius: 5px;
+    position: relative;
+}
+.price_info>h1{
+    font-weight: bolder;
+}
+.price_info>h6{
+    display: inline-flex;
+    font-size: 10px;
+    color: rgb(185, 172, 172);
+}
+.price_info>p{
+    font-size: 15px;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    color: #003547;
+    display: flex;
+    justify-content: space-around;
+}
+.share{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.share:hover{
+    color: blue;
+    font-weight: bold;
+}
+.hareat{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.hareat:hover{
+   color: red;
+   font-weight: bold;
+}
+.seller_info{
+    border: 1px solid rgb(163, 159, 159);
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 0;
+}
+.seller_info>h1{
+    font-size: 20px;
+}
+.seller_info>.xyx{
+    margin: 0;
+    margin-left: 70px;
+    font-size: 15px;
+}
+.seller_info>.name{
+    font-weight: bolder;
+    margin: 0;
+    margin-left: 70px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.farward{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.boy{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 45px;
+    left: 30px;
+}
+.seller{
+    text-align: center;
+    color: white;
+    background-color: #002f34;
+    border: 5px solid #002f34;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.seller:hover{
+    color: #002f34;
+    background-color: white;
+}
+.contact{
+    text-align: center;
+}
+.address_info{
+    border: 1px solid rgb(163, 159, 159);
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.map{
+    width: 300px;
+}
+.footer_list{
+    display: flex;
+    background-color: #ebeeef;
+    justify-content: space-around;
+    border-top: 0.1px solid gray;
+    flex-wrap: wrap;
+}
+.list1{
+    list-style-type: none;
+    text-align: left;
+    margin-top: 30px;
+}
+.main_h{
+     color: #002f34;
+     font-weight: bold;
+     font-size: 15px;
+     margin-bottom: 10px;
+}
+li{
+    font-size: 13px;
+    color: #58767a;
+    font-weight: lighter;
+    cursor: pointer;
+}
+li:hover{
+    color: black;
+}
+.last_div{
+    /* width: 100%; */
+    height: auto;
+    background-color: #002f34;
+    padding: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+body{
+    margin: 0;
+}
+.sp_1{
+    color: white;
+    text-align: left;
+
+}
+.sp_2{
+    color: white;
+}
+.linkks{
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    border:0.5px solid gray;
+    color: gray;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 1px;
+    cursor: pointer;
+}
+.last_img{
+    width: 80px;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px){
+    ..last_div{
+        height: auto;
+    }
+    .b{
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    ..last_div{
+        height: auto;
+    }
+    .b{
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width: 700px){
+    ..last_div{
+        height: auto;
+    }
+    .country{
+        width: 200px;
+    }
+    .b{
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .search_bar{
+        padding: 0;
+    }
+    .country{
+        width: 200px;
+    }
+    .cover{
+      display: none;
+      
+    }
+    .addd{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    ..last_div{
+        height: auto;
+    }
+    .b{
+        margin-left: 0;
+        margin-right: 20px;
+    }
+        .search_bar{
+        padding: 0;
+        margin-left: 0px;
+     } 
+    .input_div{
+        visibility: hidden;
+        width: 30%;
+      }
+      .nav{
+          display: block;
+      }
+      .cover{
+        display: none;
+        
+      }
+      .addd{
+        display: none;
+        visibility: hidden;
+    }
+
+}
+@media only screen and (max-width: 400px){
+    ..last_div{
+        height: auto;
+    }
+    .app_promo{
+        display: none;
+    }
+    .search_bar{
+        padding: 0;
+        margin-left: 0px;
+     } 
+    .input_div{
+        visibility: hidden;
+        width: 40%;
+      }
+      .nav{
+          display: block;
+      }
+      .cover{
+        display: none;
+        
+      }
+      .addd{
+        display: none;
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 400px){
+    .b{
+        margin-right: 20px;
+    }
+    .input_div{
+       /* display: none; */
+       width: 1%;
+      }
+      .nav{
+          display: block;
+      }
+      .cover{
+        display: none;
+        visibility: hidden;
+        
+      }
+      .addd{
+        display: none;
+        visibility: hidden;
+    }
+}
